@@ -29,7 +29,7 @@ SOURCE_PATH="${SOURCE_PATH%/}"
 
 [ -d "$SOURCE_PATH" ] || fail "Folder does not exist: $SOURCE_PATH"
 
-printf '\nSkin name shown in the menu (example: Gusion Minato Namikaze):\n> '
+printf '\nSkin name shown in the menu (example: Nana Legend):\n> '
 IFS= read -r SKIN_NAME
 [ -n "$SKIN_NAME" ] || fail "Skin name cannot be empty."
 
